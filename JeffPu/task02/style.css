@@ -1,0 +1,17 @@
+nav{
+	background-color: #333;
+	height: 60px;
+}
+nav img{
+	padding-left: 10px;
+	padding-top: 5px;
+}
+nav ul{
+	float: right;
+	list-style-type: none;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	
+}
