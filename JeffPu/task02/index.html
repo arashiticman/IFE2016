@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IFE2016</title>
+    <title>IFE2016 task2</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -16,28 +16,30 @@
         <li><a href="#">导航链接一</a></li>
         <li><a href="#">导航链接二</a></li>
         <li><a href="#">导航链接三</a></li>
-        <li><a href="#">导航链接四</a></li>
+        <li><a id="selected" href="#">导航链接四</a></li>
       </ul>
     </nav>
     </header>
     <!-- ******ARTICLE****** -->
     <article>
+    <div class="num">
       <h2>文章一级标题</h2>
       <h3>文章二级标题</h3>
-      <p>文章作者<span>文章发表时间</span></p>
-      <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
-      这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<br>
-      <img src="images/test.jpg"><br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+      <p class="writer">文章作者 文章发表时间</p>
+      <p class="page">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+      这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+      <img src="images/test.jpg">
+      <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
       这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
       </p>
-      
+    </div>
 
+    <div class="num">
       <h2>另一篇文章一级标题</h2>
       <h3>文章二级标题</h3>
-      <p>文章作者<span>文章发表时间</span></p>
-      <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
-      这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<br><img src="images/test.jpg">
-      </p>
+      <p class="writer">文章作者 文章发表时间</p>
+      <p class="page">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+      这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p><img src="images/test.jpg">
       <p>
         <ul>
           <li>项目列表一</li>
@@ -45,18 +47,35 @@
           <li>项目列表三</li>
         </ul>
       </p>
+    </div>
+    <div class="num">
       <h2>图片</h2>
-      <p>好看的图片<br><img src="images/test.jpg"></p>
-      <p>好看的图片<br><img src="images/test.jpg"></p>
-      <p>好看的图片<br><img src="images/test.jpg"></p>
-      <p>好看的图片<br><img src="images/test.jpg"></p>
-      <p>好看的图片<br><img src="images/test.jpg"></p>
-      <p>好看的图片<br><img src="images/test.jpg"></p>
+      <div class="box">
+        <p>好看的图片<p>
+          <div><img src="images/test-min.jpg"></div>
+      </div>
+      <div class="box">
+        <p>好看的图片<p>
+          <div><img src="images/test-min.jpg"></div>
+      </div><div class="box">
+        <p>好看的图片<p>
+          <div><img src="images/test-min.jpg"></div>
+      </div><div class="box">
+        <p>好看的图片<p>
+          <div><img src="images/test-min.jpg"></div>
+      </div><div class="box">
+        <p>好看的图片<p>
+          <div><img src="images/test-min.jpg"></div>
+      </div><div class="box">
+        <p>好看的图片<p>
+          <div><img src="images/test-min.jpg"></div>
+      </div>
+    </div>
 
-
+    <div class="num">
       <h2>另一篇文章一级标题</h2>
       <h3>文章二级标题</h3>
-      <p>文章作者<span>文章发表时间</span></p>
+      <p class="writer">文章作者 文章发表时间</p>
       <ol>
         <li>排名1</li>
         <li>排名2</li>
@@ -94,32 +113,37 @@
           <td colspan=2>1000</td>
         </tr>
       </table>
+    </div>
     </article>
     <!-- ******ASIDE****** -->
     <aside>
       <h2>这里以后是一个侧栏，这是标题</h2>
       <h2>侧栏注册窗口标题</h2>
       <form>
-        请输入邮箱地址<input type="email" name="email" value="这是一个文本输入框"><br>
+        <label for="email">请输入邮箱地址</label>
+        <input type="email" name="email" value="这是一个文本输入框"><br>
         <p>邮箱地址请按要求格式输入</p>
-        请输入密码：<input type="text" name="password" value="这是一个文本输入框">
-        请重复输入密码：<input type="text" name="password" value="这是一个文本输入框"><br>
+        <label for="pw">请输入密码：</label>
+        <input type="password" name="pw" value="这是一个文本输入框">
+        <label for="repw">请重复输入密码：</label>
+        <input type="password" name="repw" value="这是一个文本输入框"><br>
         <p>密码请为6-16位英文数字</p>
-        性别：
+        <label for="sex">性别：</label>
         <input type="radio" name="sex" value="男">男
         <input type="radio" name="sex" value="女">女
-        城市：
+        <label for="city">城市：</label>
         <select name="city">
           <option value="bj">北京</option>
           <option value="sh">上海</option>
           <option value="cd">成都</option>
-      </select>
-      爱好：
-      <input type="checkbox" name="hobby" value="运动">运动
-      <input type="checkbox" name="hobby" value="艺术">艺术
-      <input type="checkbox" name="hobby" value="科学">科学
-      个人描述：<textarea name="discription" row="5" cols="20"></textarea>
-      <input type="submit" value="确认提交">
+        </select>
+        <label for="hobby">爱好：</label>
+        <input type="checkbox" name="hobby" value="运动">运动
+        <input type="checkbox" name="hobby" value="艺术">艺术
+        <input type="checkbox" name="hobby" value="科学">科学
+        <label for="discription">个人描述：</label>
+        <textarea name="discription" row="5" cols="20"></textarea>
+        <input type="submit" value="确认提交">
       </form>
     </aside>
 

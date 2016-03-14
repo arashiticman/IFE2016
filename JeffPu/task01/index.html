@@ -23,7 +23,7 @@
     <article>
       <h2>文章一级标题</h2>
       <h3>文章二级标题</h3>
-      <p>文章作者<span>文章发表时间</span></p>
+      <p>文章作者 文章发表时间</p>
       <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
       这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<br>
       <img src="images/test.jpg"><br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
@@ -33,7 +33,7 @@
 
       <h2>另一篇文章一级标题</h2>
       <h3>文章二级标题</h3>
-      <p>文章作者<span>文章发表时间</span></p>
+      <p>文章作者 文章发表时间</p>
       <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
       这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="ife.baidu.com">这里是个链接，你打开试试？</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<br><img src="images/test.jpg">
       </p>
@@ -55,7 +55,7 @@
 
       <h2>另一篇文章一级标题</h2>
       <h3>文章二级标题</h3>
-      <p>文章作者<span>文章发表时间</span></p>
+      <p>文章作者 文章发表时间</p>
       <ol>
         <li>排名1</li>
         <li>排名2</li>
@@ -99,26 +99,30 @@
       <h2>这里以后是一个侧栏，这是标题</h2>
       <h2>侧栏注册窗口标题</h2>
       <form>
-        请输入邮箱地址<input type="email" name="email" value="这是一个文本输入框"><br>
+        <label for="email">请输入邮箱地址</label>
+        <input type="email" name="email" value="这是一个文本输入框"><br>
         <p>邮箱地址请按要求格式输入</p>
-        请输入密码：<input type="text" name="password" value="这是一个文本输入框">
-        请重复输入密码：<input type="text" name="password" value="这是一个文本输入框"><br>
+        <label for="pw">请输入密码：</label>
+        <input type="password" name="pw" value="这是一个文本输入框">
+        <label for="repw">请重复输入密码：</label>
+        <input type="password" name="repw" value="这是一个文本输入框"><br>
         <p>密码请为6-16位英文数字</p>
-        性别：
+        <label for="sex">性别：</label>
         <input type="radio" name="sex" value="男">男
         <input type="radio" name="sex" value="女">女
-        城市：
+        <label for="city">城市：</label>
         <select name="city">
           <option value="bj">北京</option>
           <option value="sh">上海</option>
           <option value="cd">成都</option>
-      </select>
-      爱好：
-      <input type="checkbox" name="hobby" value="运动">运动
-      <input type="checkbox" name="hobby" value="艺术">艺术
-      <input type="checkbox" name="hobby" value="科学">科学
-      个人描述：<textarea name="discription" row="5" cols="20"></textarea>
-      <input type="submit" value="确认提交">
+        </select>
+        <label for="hobby">爱好：</label>
+        <input type="checkbox" name="hobby" value="运动">运动
+        <input type="checkbox" name="hobby" value="艺术">艺术
+        <input type="checkbox" name="hobby" value="科学">科学
+        <label for="discription">个人描述：</label>
+        <textarea name="discription" row="5" cols="20"></textarea>
+        <input type="submit" value="确认提交">
       </form>
     </aside>
 
