@@ -12,7 +12,7 @@ nav{
 	margin: 0;
 }
 nav img{
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-top: 5px;
 }
 nav ul{
@@ -21,8 +21,8 @@ nav ul{
 	padding: 20px 10px;
 }
 nav ul li{
-	display: inline;
-	padding: 5px 10px;
+	display: inline-block;
+	padding: 0px 10px;
 }
 nav ul li a:link,nav ul li a:visited{
 	text-decoration: none;
@@ -75,7 +75,85 @@ h3{
 .num ol li{
 	line-height: 1.8em;
 }
+table, th, td{
+	border: thin solid gray;
+	font-size: 12px;
+	line-height: 1.8em;
+	text-indent: 5px;
+}
+.table_title{
+	padding: 0;
+	margin: 0;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 10px;
+}
+th{
+	text-align: left;
+	color: #fff;
+	background-color: rgb(51,51,51);
+}
+.sum{
+	background-color: rgb(204,204,204);
+}
 
+aside{
+	margin: 20px;
+	margin-top: 0px;
+	background-color: #fff;
+	padding: 10px 20px;
+	box-shadow: 3px 3px 2px #888;
+}
+.aside_title{
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+}
+form{
+	padding-left:0;
+	font-size: 12px;
+}
+aside form table{
+	border: none;
+	padding: 0;
+	margin: 0;
+
+}
+aside form table td{
+	border: none;
+	padding-bottom: 10px;
+	text-align: right;
+	vertical-align: top;
+}
+td.left{
+	text-align: left;
+}
+aside form table td span{
+	color: rgb(222,222,222);
+}
+aside form textarea{
+	width: 300px;
+	height: 100px;
+}
+#submit{
+	width: 100%;
+	background-color: blue;
+	color: #fff;
+	font-size: 16px;
+	line-height: 2em;
+	border-radius: 10px;
+}
+footer{
+	background-color: black;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+}
 
 
 

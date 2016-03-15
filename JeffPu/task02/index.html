@@ -81,7 +81,7 @@
         <li>排名2</li>
         <li>排名3</li>
       </ol>
-      <p>下面是一个表格</p>
+      <p class="table_title">下面是一个表格</p>
       <table border="1">
         <tr>
           <th>表头</th>
@@ -108,7 +108,7 @@
           <td>表内容单元格</td>
           <td><a href="#">操作</a></td>
         </tr>
-        <tr>
+        <tr class="sum">
           <td>总计</td>
           <td colspan=2>1000</td>
         </tr>
@@ -117,39 +117,67 @@
     </article>
     <!-- ******ASIDE****** -->
     <aside>
-      <h2>这里以后是一个侧栏，这是标题</h2>
-      <h2>侧栏注册窗口标题</h2>
+      <h2 class="aside_title">这里以后是一个侧栏，这是标题</h2>
       <form>
-        <label for="email">请输入邮箱地址</label>
-        <input type="email" name="email" value="这是一个文本输入框"><br>
-        <p>邮箱地址请按要求格式输入</p>
-        <label for="pw">请输入密码：</label>
-        <input type="password" name="pw" value="这是一个文本输入框">
-        <label for="repw">请重复输入密码：</label>
-        <input type="password" name="repw" value="这是一个文本输入框"><br>
-        <p>密码请为6-16位英文数字</p>
-        <label for="sex">性别：</label>
-        <input type="radio" name="sex" value="男">男
-        <input type="radio" name="sex" value="女">女
-        <label for="city">城市：</label>
-        <select name="city">
-          <option value="bj">北京</option>
-          <option value="sh">上海</option>
-          <option value="cd">成都</option>
-        </select>
-        <label for="hobby">爱好：</label>
-        <input type="checkbox" name="hobby" value="运动">运动
-        <input type="checkbox" name="hobby" value="艺术">艺术
-        <input type="checkbox" name="hobby" value="科学">科学
-        <label for="discription">个人描述：</label>
-        <textarea name="discription" row="5" cols="20"></textarea>
-        <input type="submit" value="确认提交">
+      <table>
+        <tr>
+          <td><label for="email">请输入邮箱地址</label></td>
+          <td class="left"><input type="email" name="email" placeholder="这是一个文本输入框" id="email"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="left"><span>邮箱地址请按要求格式输入</span></td>
+        </tr>
+        <tr>
+          <td><label for="pw">请输入密码：</label></td>
+          <td class="left"><input type="password" name="pw" id="pw" placeholder="这是一个文本输入框"></td>
+        </tr>
+        <tr>
+          <td><label for="repw">请重复输入密码：</label></td>
+          <td class="left"><input type="password" name="repw" id="repw" placeholder="这是一个文本输入框"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="left"><span>密码请为6-16位英文数字</span></td>
+        </tr>
+        <tr>
+        <td>性别：</td>
+        <td class="left">
+          <label><input type="radio" name="sex" value="男">男</label>
+          <label><input type="radio" name="sex" value="女">女</label>
+        </td>
+        <tr>
+          <td>城市：</td>
+          <td class="left">
+            <select name="city">
+              <option value="bj">北京</option>
+              <option value="sh">上海</option>
+              <option value="cd">成都</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="sport">爱好：</label></td>
+        <td class="left">
+          <input type="checkbox" name="hobby" id="sport" value="运动">运动
+          <input type="checkbox" name="hobby" value="艺术">艺术
+          <input type="checkbox" name="hobby" value="科学">科学
+        </td>
+      </tr>
+      <tr>
+        <td>个人描述：</td>
+        <td class="left">
+          <textarea name="discription" placeholder="do or do not,there is no try"></textarea>
+        </td>
+      </tr>
+      </table>
+      <input id="submit" type="submit" value="确认提交">
       </form>
     </aside>
 
     <!-- ******FOOTER****** -->
     <footer>
-      <p>版权所有&copy</p>
+      版权所有&copy
     </footer>
   </body>
 </html>
