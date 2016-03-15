@@ -155,10 +155,34 @@
 	    		<p>邮箱地址请按要求格式输入</p>
 	    		<p>请输入密码:
 	    		<input type="password" placeholder="这是一个文本输入框">
+	    		请重复输入密码:
+	    		<input type="password" placeholder="这是一个文本输入框" pattern="[A-Za-z]{6,16}">
 	    		</p>
-
+	    		<p>密码请为6-16位英文数字</p>
+	    		<p>
+	    			性别:&nbsp;	    	
+	    			<input type="radio" checked="checked" name="sex" value="male" id="male"/><label for="male">男</label>
+	    			<input type="radio" name="sex" value="female" id="female"/><label for="male">女</label>
+	    			城市：&nbsp;
+	    			<select name="cities">
+	    				<option value="beijing" selected="selected">北京</option>
+	    				<option value="shanghai">上海</option>
+	    				<option value="shenzhen">深圳</option>
+	    				<option value="guangzhou">广州</option>
+	    			</select>
+	    			爱好:&nbsp;
+	    			<input type="checkbox" name="habit" id="sport"/><label for="sport">运动</label>
+	    			<input type="checkbox" name="habit" id="art"/><label for="art">艺术</label>
+	    			<input type="checkbox" name="habit" id="science"/><label for="science">运动</label>
+	    			个人描述：&nbsp;
+	    			<textarea>这是一个多行输入框，输入您的个人描述</textarea>
+	    			<input type="submit" value="确认提交"/>
+	    		</p>
 	    	</form>
 	    </aside>
+	    <footer>
+	    	版权所有&copy;
+	    </footer>
 
  
 
