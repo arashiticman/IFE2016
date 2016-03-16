@@ -8,11 +8,15 @@ body{
 	border: thin solid #999;
 	box-sizing:border-box;
 }
-.clearfix{
-	overflow: auto;
+.wrapper{
+	overflow: hidden;
 }
+/*.clearfix{
+	overflow: auto;
+}*/
 .main{
 	float: left;
+	width: 100%;
 }
 .main_content{
 	background-color: #fff;
