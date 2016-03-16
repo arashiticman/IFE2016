@@ -4,23 +4,31 @@
 
 * 关于position:
 
-&nbsp;&nbsp;&nbsp;&nbsp;position:absolute；position:relative绝对定位使用通常是父级定义position:relative定位，子级定义position:absolute绝对定位属性，并且子级使用left或right和top或bottom进行绝对定位。<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/position">具体请点击</a><a href="http://www.cnblogs.com/jscode/archive/2012/08/28/2660078.html">负margin的应用</a>
+&nbsp;&nbsp;&nbsp;&nbsp;position:absolute；position:relative绝对定位使用通常是父级定义position:relative定位，子级定义position:absolute绝对定位属性，并且子级使用left或right和top或bottom进行绝对定位。
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/position">具体请点击</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnblogs.com/jscode/archive/2012/08/28/2660078.html">负margin的应用</a>
 
 * 关于负margin:
 
-<a href="http://www.cnblogs.com/leejersey/p/3477855.html">负margin使用权威指南</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnblogs.com/leejersey/p/3477855.html">负margin使用权威指南</a>
 
 * 实现布局的三个最基本的原子技术:
 
 &nbsp;&nbsp;&nbsp;&nbsp;浮动 float；负边距 negative；margin 相对定位 relative position <a href="http://www.imooc.com/wenda/detail/254035">具体请点击</a> 
-<a href="http://www.cnblogs.com/imwtr/p/4441741.html">CSS布局 -- 圣杯布局 & 双飞翼布局</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnblogs.com/imwtr/p/4441741.html">CSS布局 -- 圣杯布局 & 双飞翼布局</a>
 
 * 最后清除浮动：
 
 &nbsp;&nbsp;&nbsp;&nbsp;在task3中遇到的问题就是因为float产生的副作用——父级设置了border属性后，父级不能撑开。
-&nbsp;&nbsp;&nbsp;&nbsp;解决方法：
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;添加一个clear类并添加属性clear:both。结果：无效。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给父级元素设置overflow:hidden。思路：overflow:hidden属性相当于是让父级紧贴内容，这样即可紧贴其对象内内容（包括使用float的div盒子），从而实现了清除浮动。
+&nbsp;&nbsp;&nbsp;&nbsp;解决方法：添加一个clear类并添加属性clear:both。结果：无效。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;添加一个clearfix类并添加属性overflow:auto。思路：这个坑先留在这。<a href="http://www.cnblogs.com/mofish/archive/2012/05/14/2499400.html">参考资料</a>
+&nbsp;&nbsp;&nbsp;&nbsp;给父级元素设置overflow:hidden。
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;思路：overflow:hidden属性相当于是让父级紧贴内容，这样即可紧贴其对象内内容（包括使用float的div盒子），从而实现了清除浮动。
+
+&nbsp;&nbsp;&nbsp;&nbsp;添加一个clearfix类并添加属性overflow:auto。思路：这个坑先留在这。
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cnblogs.com/mofish/archive/2012/05/14/2499400.html">参考资料</a>
