@@ -1,0 +1,79 @@
+/*初始化*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;} 
+body{font:14px"Microsoft Yahei","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+/*全局样式*/
+body{min-width:1280px;}
+.clear{clear: both;}
+.fl{float: left;}
+.fr{float:right;}
+/*头部样式*/
+header{height:57px;border-bottom: 1px solid #ccc;}
+.header{width:1280px;margin:0 auto;}
+.logo{width:105px;height:58px;margin-left:60px;}
+nav ul li{float:left;}
+nav ul li a{display: block;padding:0 22px;height: 56px;line-height: 56px;color:#787b83;}
+nav ul li a:hover,.active{color:#e74f4d;border-bottom: 2px solid #e74f4d;text-decoration: none;}
+.login{margin-left: 22px;padding-left:20px;height:57px;line-height: 57px;background: url(../images/login.jpg) no-repeat left center;color:#e74f4d;}
+
+/*banner部分*/
+.main{width:1280px;margin:0 auto;}
+.banner{width:1165px;height:460px;background: url(../images/banner.jpg);padding-top:230px;padding-left:115px;color:#fff;}
+.banner h2{font-size: 60px;font-weight: normal;}
+.banner p{font-size:21px;line-height:42px;}
+.start{width:330px;height:62px;line-height: 62px;text-align: center;font-size: 30px;background:#e74f4d;margin-top:65px;}
+
+/*中间小标签样式*/
+.intro{margin-top:45px;}
+.intro ul li{width:320px;float:left;text-align: center;font-family: "黑体";line-height:18px;}
+.intro ul li h3{height:84px;}
+/*宣传文字样式*/
+.book{height:360px;text-align: center;background: #edecec;color:#c9c9c9;margin-top: 80px;}
+.book h3{padding-top:100px;}
+.book p{padding-top:30px;font-size: 54px;font-family: "黑体";}
+/*城市部分样式*/
+.city{height:290px;padding-top:50px;background:url(../images/center_pic.jpg); }
+.city h2{color:#fff;font-size: 21px;text-align: center;font-weight: normal;}
+.city h2 span{width:30px;height:10px;border-bottom: 2px solid #fff;display: block;margin:0 auto;}
+.city p{font-size:12px;text-align: center;height: 28px;line-height: 28px;color:#fff;}
+.select{margin-left:100px;margin-top: 50px;}
+.item{width:235px;margin-right:25px;float:left;background: #fff;}
+.item h3{background:url(../images/show.png) no-repeat 210px center;line-height: 35px;padding-left:10px;font-weight: normal;}
+.selected{border:1px solid #be4e48;}
+.item ul{background: #ccc;}
+.item ul li{height: 35px;line-height: 35px;padding-left:20px;}
+.yes {background: url(../images/yes.png) no-repeat left center #be4e48;color:#fff;}
+.search{width:235px;height:35px;background: #be4e48;line-height:35px;color:#fff;text-align: center;}
+
+/*图片样式*/
+.pic{margin-left:145px;margin-top:60px;}
+.pic ul li{float: left;margin-right:40px;text-align: center;}
+.b_pic{width:198px;height: 318px;padding:10px;border-left:1px solid #dadada;border-top:1px solid #dadada;border-right: 1px solid #dadada; }
+.pic h3{height: 28px;line-height: 28px;}
+
+/*新世界样式*/
+.newworld{margin-top: 60px;}
+.newworld_txt{width:290px;margin:70px;padding-top:50px;}
+.newworld_txt h2{text-align: center;color:#999;font-weight: 300;}
+.newworld_txt h2 span{color:#ed7c7a;} 
+.newworld_txt p{font-size: 12px;font-family: "宋体";line-height:28px;margin-top: 20px;color:#aaa;}
+.more{width:104px;height: 30px;border:1px solid #e74f4d;margin: 0 auto;text-align: center;line-height: 30px;color:#e74f4d;margin-top: 50px;}
+.sider{width:104px;margin: 0 auto;margin-top: 50px;}
+.sider ul li{width:11px;height: 12px;background: url(../images/d_01.jpg) no-repeat;float: left;margin-left:20px;}
+.sel{background: url(../images/d_02.jpg) no-repeat!important;}
+
+/*新时代样式*/
+.new_box{height:321px;padding-top:200px;width:426px;font-size: 21px;font-family: "黑体";text-align: center;font-weight: normal;line-height: 35px;}
+.new_box a {width:200px;height: 35px;display: block;line-height: 35px;margin: 30px auto;}
+.yellow{background: #e74f4d;color:#fff;}
+.yellow span{width:30px;height:10px;border-bottom: 2px solid #fff;display: block;margin:0 auto;}
+.yellow a{color:#fff;border:1px solid #fff;}
+.white{color:#e74f4d;}
+.white span{width:30px;height:10px;border-bottom: 2px solid #e74f4d;display: block;margin:0 auto;}
+.white a{color:#e74f4d;border:1px solid #e74f4d;}
