@@ -1,0 +1,175 @@
+
+body{
+	background-color: rgb(222,222,222);
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft Yahei";
+}
+nav{
+	background-color: #555;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+}
+nav img{
+	padding-left: 20px;
+	padding-top: 5px;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 20px 10px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+nav ul li a:link,nav ul li a:visited{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+a#selected{
+	color: gray;
+}
+
+
+article{
+	margin: 0px auto;
+	padding: 20px;
+	background-color: rgb(222,222,222);
+}
+h3{
+	color: rgb(110,110,110);
+}
+.writer{
+	color: rgb(110,110,110);
+	font-size: small;
+	text-indent: 0;
+}
+.page{
+	line-height: 1.5em;
+	text-indent: 2em;
+	font-size: 14px;
+}
+.num{
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding: 10px 20px;
+	box-shadow: 3px 3px 2px #888;
+}
+.box{
+	width: 102px;
+	padding: 5px;
+	margin-bottom: 20px;
+	border: 2px solid gray;
+}
+.box p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 0;
+}
+.box div{
+	text-align: center;
+}
+.num ol li{
+	line-height: 1.8em;
+}
+table, th, td{
+	border: thin solid gray;
+	font-size: 12px;
+	line-height: 1.8em;
+	/*text-indent: 5px;*/
+}
+.table_title{
+	padding: 0;
+	margin: 0;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 10px;
+}
+th{
+	text-align: left;
+	color: #fff;
+	background-color: rgb(51,51,51);
+}
+.sum{
+	background-color: rgb(204,204,204);
+}
+
+aside{
+	margin: 20px;
+	margin-top: 0px;
+	background-color: #fff;
+	padding: 10px 20px;
+	box-shadow: 3px 3px 2px #888;
+}
+.aside_title{
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+}
+form{
+	padding-left:0;
+	font-size: 12px;
+}
+aside form table{
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 90%;
+
+}
+aside form table td{
+	border: none;
+	padding-bottom: 10px;
+	text-align: right;
+	vertical-align: top;
+
+}
+td.left{
+	text-align: left;
+}
+
+aside form table td span{
+	color: rgb(222,222,222);
+}
+aside form textarea{
+	width: 150px;
+	height: 80px;
+}
+#submit{
+	width: 100%;
+	background-color: blue;
+	color: #fff;
+	font-size: 16px;
+	line-height: 2em;
+	border-radius: 10px;
+}
+footer{
+	background-color: black;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
