@@ -1,5 +1,5 @@
 /*全局样式*/
-p,h1,h2,h3,h4,h5,h6,a,ul,ol,li,img,span,dl,dt,dd,th,tr,td,label{margin:0;padding:0; text-decoration:none;border:0;font-size:14px;font-family:"microsoft yahei";}
+body,p,h1,h2,h3,h4,h5,h6,a,ul,ol,li,img,span,dl,dt,dd,th,tr,td,label{margin:0;padding:0; text-decoration:none;border:0;font-size:14px;font-family:"microsoft yahei";}
 body{width:100%;background-color:#dedede;}
 .clear{clear: both;}
 /*头部样式*/
@@ -9,16 +9,16 @@ header ul{float:right;margin-right:20px;}
 header ul li{float:left;color:#fff;float:left;color:#fff;line-height:60px;width:80px;background:url(../images/task03.jpg) no-repeat left center ;padding-left: 10px;list-style: none;}
 header ul li a{color:#fff;}
 /*内容样式*/
-.content{margin:0 20px;}
-.con-left{position: absolute;right: 390px;}
-.box{border:2px solid #cbcbcb;background: #fff;padding:30px 35px;margin-top:20px;box-shadow: 2px 2px 5px #888888;}
+.content{margin:0 20px;overflow: auto;}
+.con-left{float:left;margin-right:  410px;}
+.box{border:2px solid #cbcbcb;background: #fff;padding:30px 35px;margin-top:20px;box-shadow: 2px 2px 5px #888888;overflow: auto;}
 h2{font-size:18px;font-weight:bold; }
 h3{ffont-weight:bold;margin:20px 0 10px 0;}
 .p_time{font-size: 10px;}
 .article p{line-height:28px;margin-top: 20px;text-indent: 2em;}
 .article ul{margin-left: 20px;line-height:28px;}
 .pic ul{margin-left:40px;}
-.pic ul li {width:120px;height:125px;border:1px solid #ccc;margin:20px 0;list-style: none;}
+.pic ul li {width:120px;height:125px;border:1px solid #ccc;margin:20px;list-style: none;float: left;}
 .pic h4{font-size:10px;font-weight:0;text-align: center;}
 .pic img{width:100px;height:80px;}
 .pic p{width:100px;margin:20px auto 5px;}
@@ -28,22 +28,24 @@ h3{ffont-weight:bold;margin:20px 0 10px 0;}
 .tab th{background: #333;text-align: left;color:#fff;}
 .table{border-collapse: collapse;}
 .total{background: #ccc;font-weight: bold;}
-.sidebox{width:370px;height:500px;float:right;}
+.sidebox{width:296px;height:500px;position: absolute;right: 20px;}
 .sidebox h2{height:40px;line-height:40px;border-left:2px solid #ccc;padding-left: 10px}
-.registe label{width:120px;margin-left: 270px;margin-top: 20px;display: inline-block;text-align: right;}
-.registe p{margin-left:396px;color: #d0d0d0;font-size: 12px;margin-top:5px;}
+.registe label{width:98px;margin-top: 20px;display: inline-block;text-align: right;}
+.registe p{color: #d0d0d0;font-size: 12px;margin-top:5px;margin-left:110px;}
+.
 .introtit{height:100px;display:block;float: left;}
-.intro{width:700px;height:100px;text-align: left;font-family:"microsoft yahei";float: left;margin-top:20px;}
+.intro{text-align: left;font-family:"microsoft yahei";float: right;margin-top:20px;height:101px;}
+
 .sub{
-	padding:10px; width:100%; height:50px;
+	 width:100%; height:35px;margin:0 auto;
     border: 1px solid #dedede;
     background: #3355d0;
     -moz-border-radius: 15px;      /* Gecko browsers */
     -webkit-border-radius: 15px;   /* Webkit browsers */
     border-radius:15px; 
-	margin-top: 20px;
+	margin-top: 15px;
 	color: #fff;
 	font-family:"microsoft yahei";
 	font-size:14px;
 	}
-.footer{width: 100%;height:50px;padding-top:20px;margin-top:20px;background:#000;color: #fff;font-family:"microsoft yahei";font-size:14px;text-align: center;}
+.footer{width: 100%;height:50px;padding-top:20px;margin-top:20px;background:#000;color: #fff;font-family:"microsoft yahei";font-size:14px;text-align: center;overflow: auto}
