@@ -79,7 +79,7 @@ table, th, td{
 	border: thin solid gray;
 	font-size: 12px;
 	line-height: 1.8em;
-	text-indent: 5px;
+	/*text-indent: 5px;*/
 }
 .table_title{
 	padding: 0;
@@ -119,6 +119,7 @@ aside form table{
 	border: none;
 	padding: 0;
 	margin: 0;
+	width: 90%;
 
 }
 aside form table td{
@@ -126,16 +127,18 @@ aside form table td{
 	padding-bottom: 10px;
 	text-align: right;
 	vertical-align: top;
+
 }
 td.left{
 	text-align: left;
 }
+
 aside form table td span{
 	color: rgb(222,222,222);
 }
 aside form textarea{
-	width: 300px;
-	height: 100px;
+	width: 150px;
+	height: 80px;
 }
 #submit{
 	width: 100%;

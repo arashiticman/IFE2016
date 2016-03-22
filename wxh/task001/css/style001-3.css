@@ -1,0 +1,27 @@
+/*三栏式布局样式*/
+/*初始化*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;font-size:14px;} 
+body{font:12px"Microsoft Yahei","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+/*全局样式*/
+.wrapper{padding:20px;margin:20px;background: #eee;border: 1px solid #999;overflow: auto;position: relative;}
+img{width:80px;height:80px;}
+/*团队名称样式*/
+.team_name{width:158px;padding:20px;float:left;border:1px solid #999;background-color: #fff;}
+.logo{width:80px;height: 80px;float:left;}
+.name{padding-left:20px;font-weight:bold;font-size:14px;}
+
+/*团队介绍样式*/
+.team_intro{position: absolute;left:260px;right:180px;border:1px solid #999;padding:20px;background-color: #fff;}
+.team_intro h3{height:28px;line-height: 28px;}
+.team_intro p{text-indent: 2em;line-height: 28px;}
+/*团队成员*/
+.team_member{width:118px;float:right;height:auto;border:1px solid #999;background-color: #fff;}
+.team_member ul{width:80px;margin:0 auto;padding-top:20px;}
+.team_member ul li{width:80px;height:80px;margin-bottom:20px;}
