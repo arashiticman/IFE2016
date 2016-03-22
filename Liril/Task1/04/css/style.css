@@ -1,0 +1,51 @@
+/*
+* @Author: Liril
+* @Date:   2016-03-22 11:43:14
+* @Last Modified by:   Liril
+* @Last Modified time: 2016-03-22 16:20:17
+*/
+.clearfix:before, .container:before, .clearfix:after, .container:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after, .container:after {
+  clear: both; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .container .box {
+    background: #ccc;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .container .box .circle {
+      background: #fc0;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      position: absolute; }
+      .container .box .circle:first-child {
+        top: -50px;
+        left: -50px; }
+      .container .box .circle:last-child {
+        bottom: -50px;
+        right: -50px; }
