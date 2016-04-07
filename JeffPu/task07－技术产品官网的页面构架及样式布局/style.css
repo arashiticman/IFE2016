@@ -142,17 +142,17 @@ header .sign_in{
 	font-size: 12px;
 }
 .search form select{
-	background: url(images/select_btn.png) no-repeat right #fff;
-	width: 200px;
-	margin-right: 30px;
-	padding: 0 0 0 10px;
-	border-radius: none;
-	border: 1px solid #ccc;
-	height: 34px;
-	overflow: hidden;
 	appearance:none;
 	-moz-appearance:none;
 	-webkit-appearance:none;
+	background: url(images/select_btn.png) no-repeat right #fff;
+	width: 200px;
+	margin-right: 30px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	height: 34px;
+	overflow: hidden;
 	color: #999;
 }
 .search form .btn{

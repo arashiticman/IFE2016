@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.container div:not(.no_4){
+	width: 150px;
+	border: 1px solid #f00;
+	margin-bottom: 20px;
+}
+.no_1{
+	height: 120px;
+}
+.no_2{
+	height: 100px;
+}
+.no_3{
+	height: 40px;
+}
+.no_4{
+	height: 200px;
+	width: 150px;
+	border: 1px solid #0f0;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 640px) {
+	.container{
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+	.no_4{
+		order: -1;
+	}
+}
