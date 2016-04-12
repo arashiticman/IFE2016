@@ -21,16 +21,23 @@
   获取aqi-input输入的值，并显示在aqi-display中
   */
   var btn=document.getElementById("button");
+  var aqi_input=document.getElementById("aqi-input");
+  var aqi_display=document.getElementById("aqi-display");
+
+  aqi_input.onkeypress = function(e){
+    if (e.keyCode == 13){
+      btn.click(); // 回车触发click事件
+    }
+  }
+
   btn.onclick=function(){
-    var aqi_input=document.getElementById("aqi-input");
-    var aqi_display=document.getElementById("aqi-display")
-      if(aqi_input.value){
-        aqi_display.innerText=aqi_input.value;
-      }
-      else{
-        aqi_display.innerText="尚无录入";
-        alert("请重新输入今天的空气质量");
-      }
+    if(aqi_input.value){
+      aqi_display.innerHTML=isNaN(aqi_input.value) || aqi_input.value <= 0 ? "请输入正确的数字" : aqi_input.value;
+    }
+    else{
+      aqi_display.innerHTML="尚无录入";
+      alert("请输入今天的空气质量");
+    }
   }
 
 })();
