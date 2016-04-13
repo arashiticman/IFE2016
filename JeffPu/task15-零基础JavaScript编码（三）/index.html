@@ -39,6 +39,7 @@ function getData() {
   var source=document.getElementById("source").getElementsByTagName("li");
   for (var i=0;i<source.length;i++) {
   	data.push(source[i].innerText.split("："));
+  	// var cityName=data[i][0].innerHTML.slice(0, 2);
   }
   return data;
 }
