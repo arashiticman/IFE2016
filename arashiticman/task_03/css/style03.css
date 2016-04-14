@@ -1,0 +1,69 @@
+/*三栏布局*/
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+	font-family:"Microsoft Yahei";
+	font-size: 14px;
+}
+.main,.content,.left,.right{
+	box-sizing: border-box;
+}
+.content{
+	padding:20px 160px 20px 240px;
+	margin:0px 20px;
+	background:#eeeeee;
+	border:1px #999 solid;
+
+}
+.main{
+	background: #fff;
+	width: 100%;
+	height:300px;
+}
+.main p{
+	margin-bottom:20px;
+}
+.left{
+	width:200px;
+	min-height: 120px;
+	background: #fff;
+	margin-left: -100%;
+	position: relative;
+	left:-220px;
+}
+.left img{
+	border:1px #999 solid;
+	float:left;
+}
+.left p{
+	margin-left: 100px;
+}
+.right{
+	background:#fff;
+	width:120px;
+	min-height: 100px;
+	margin-left: -120px;
+	position: relative;
+	right:-140px;
+
+}
+.right img{
+	margin-bottom: 10px;
+}
+.right .marginNone{
+	margin-bottom: 0;
+}
+
+.main,.left,.right{
+	float: left;
+	border:1px #999 solid;
+	padding:20px;
+}
+.content:after{
+	content:'';
+	display:block;
+	clear: both;
+}
